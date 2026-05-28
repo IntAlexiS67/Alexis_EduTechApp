@@ -20,7 +20,7 @@ public class DetalleModuloDAOImpl implements DetalleModuloDAO{
     public List<DetalleModulo> listar() {
         //Vector de objetos
         List<DetalleModulo> detalles = new ArrayList<>();
-        String consulta ="{call sp_listarcategorias()}";
+        String consulta ="{call sp_listar_detalle_modulos()}";
         try (Connection conexion = Conexion.conectar();
                 CallableStatement call = conexion.prepareCall(consulta);
                 //ResultSet = Result Grid

@@ -16,7 +16,7 @@ public class MenuPrincipal {
         //ciclo para el menu: do while
         do {            
             System.out.println("--------------------------------------");
-            System.out.println("    SISTEMA CENTRAL LIBRERIA - IN4CM");
+            System.out.println("    SISTEMA CENTRAL PLATAFORMA EDUTECH ");
             System.out.println("--------------------------------------");
             System.out.println("1. Entrar a DETALLES MODULOS");
             System.out.println("2. Entrada a CATEGORIAS");

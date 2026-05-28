@@ -8,7 +8,7 @@ public class Conexion {
     //sString de conexion: URL, USER, PASSWORD
     //URL : driver, host de server: puerto, db, ?config..
     private static final String URL = 
-            "jdbc:mysql://localhost:3306/db_DDL_Alexis_Diéguez_in4cm?useUnicode=true&characterEncoding=UTF-8";
+            "jdbc:mysql://localhost/db_DDL_Alexis_Diéguez_in4cm?useUnicode=true&characterEncoding=UTF-8";
     private static final String USER = "IN4CM";
     private static final String PASSWORD = "#NdimAM4";
     

@@ -41,7 +41,7 @@ public class DetalleModuloView {
        System.out.println("\n +++LISTA DE DETALLES DE LOS MODULOS+++");
        //FOR EACH = siclo específico para vectores de objetos
        for (DetalleModulo detalle : detalles) {
-           System.out.println(detalle.getIdDetalleModulo()+" "+detalle.getIdModulo()+detalle.getCodigoCurso()+"\n");
+           System.out.println(detalle.getIdDetalleModulo()+" "+detalle.getIdModulo()+" "+detalle.getCodigoCurso()+"\n");
        }
    }
    public void mostrarCategoria(DetalleModulo detalle){

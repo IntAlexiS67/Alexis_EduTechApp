@@ -1,4 +1,5 @@
 package org.alexisdieguez.system;
+import org.alexisdieguez.model.conexion.Conexion;
 import org.alexisdieguez.view.MenuPrincipal;
 
 
@@ -13,6 +14,8 @@ public class Main {
         //DAO (objeto de acceso a datos)
         MenuPrincipal menu = new MenuPrincipal();
         menu.iniciarSistema();
+        Conexion db = new Conexion();
+        db.conectar();
     }
     
 }
